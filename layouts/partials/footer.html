@@ -4,9 +4,12 @@
 		{{ with .Site.Params.sidebar.googleplus }}
 		<li><a href="//plus.google.com/+{{ . }}" target="_blank" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
 		{{ end }}
+		{{ with .Site.Params.sidebar.xing}}
+		<li><a href="//xing.com/profiles/+{{ . }}" target="_blank" class="icon fa-xing"><span class="label">Xing</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.facebook }}
-        <li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-        {{ end }}
+        	<li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+        	{{ end }}
 		{{ with .Site.Params.sidebar.twitter }}
 		<li><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 		{{ end }}
