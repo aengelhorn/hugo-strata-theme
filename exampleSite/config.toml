@@ -39,6 +39,7 @@ paginate = 10
 		googleplus = ""
 		flickr = ""
 		linkedin = ""
+		xing = ""
 
 		copyright = [
 			"&copy; John Doe",
